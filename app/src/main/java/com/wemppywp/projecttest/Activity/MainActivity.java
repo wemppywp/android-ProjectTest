@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                             int position = rv.getChildAdapterPosition(child);
 
                             Intent i = new Intent(MainActivity.this, DeskripsiActivity.class);
-                            i.putExtra("Text", get(position).getKlsId());
+                            //i.putExtra("Text", get(position).getKlsId());
                             MainActivity.this.startActivity(i);
 
                         }
